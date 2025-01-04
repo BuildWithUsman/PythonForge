@@ -1,2 +1,2 @@
 # PythonForge
-PythonForge: is where I’m documenting my journey through Bro Code’s Python course on YouTube. It’s a collection of my notes, exercises, and projects as I learn the fundamentals of Python programming.
+PythonForge is a repository to track my progress and projects as I learn Python. It features code snippets, exercises, and personal insights from my journey to mastering the language. Perfect for anyone interested in Python fundamentals and practical examples.
