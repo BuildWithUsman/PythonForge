@@ -6,6 +6,11 @@
 first_name = "Bro"
 food = "pizza"
 email = "Bro123@fake.com"
+
+#Integers 
+age = 25
+quantity = 3
+
 # You can use this method to print out onto the terminal. 
 print(first_name) # You can use this method to print out onto the terminal. 
 
@@ -14,3 +19,6 @@ print(f"Hello {first_name}")
 print(f"You like {food}")
 print(f"Your email is {email}")
 
+print(f"\n") # You can use "\n" to add a line break. 
+
+print(f"You are {age} years old")
