@@ -25,6 +25,7 @@ print(gpa)
 age = float(age)
 print(age)
 
-#Convert the Age into a String 
-age2 = str(age2)
-print(age2)
+# Convert the Age into a String 
+age2 = str(age2) # Even though the output will be the same, the variable itself has actually changed into a Integer.
+print(age2) # The reason why the output will remain the same is because 35 typed as a string is 35. You can think of it as this, "35". 
+print(type(age2)) # To prove that it converted the variable into a string, we will use the type method to print it's variable type. 
