@@ -1,6 +1,8 @@
 # Typecasting = the process of converting a variable from one data type to another str(), int(), float(), or bool().
 
+# Defining variables 
 name = "Bro Code"
+name2 = ""
 age = 25
 age2 = 35
 gpa = 3.2 
@@ -42,6 +44,20 @@ age2 += "1"
 print(age2)
 
 # Convert String into a Boolean 
+# When converting a variable type into a boolean type, the output will always be True unless the variable is empty. 
+# Doesn't matter what variable contains.
+# We can this to check if a user gave their name or any other value. 
+# Examples
 
 name = bool(name)
 print(name)
+
+name2 = bool(name2)
+print(name2)
+
+# If the user gave their name, meaning name2 variable isn't emtpy then it will print out "User gave their name!"
+# If the user didn't give their name, it will print out "User didn't give their name"
+if name2:
+    print(f"User gave their name!") 
+else:
+    print("User didn't give their name")
