@@ -25,7 +25,23 @@ print(gpa)
 age = float(age)
 print(age)
 
-# Convert the Age into a String 
+# Convert the Age2 into a String 
 age2 = str(age2) # Even though the output will be the same, the variable itself has actually changed into a Integer.
 print(age2) # The reason why the output will remain the same is because 35 typed as a string is 35. You can think of it as this, "35". 
 print(type(age2)) # To prove that it converted the variable into a string, we will use the type method to print it's variable type. 
+
+# It is important to know that when typecasting Integers to Strings, you can no longer do arithmetric expressions with them. 
+# Example - THIS WILL NOT RUN!! It will error out with the following error message:
+# TypeError: can only concatenate str (not "int") to str
+# age2 += 1 # This is the same thing as age2 = age2 + 1
+# print(age2)
+
+# However though, you add quotes around the 1 then it will work but it will display it as 351 because age2 is a string. 
+# Example 
+age2 += "1"
+print(age2)
+
+# Convert String into a Boolean 
+
+name = bool(name)
+print(name)
