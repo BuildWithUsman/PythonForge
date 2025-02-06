@@ -23,6 +23,14 @@ print("Happy Birthday")
 print(f"You are {age} years old")
 print(f"5 years from now, you will be: {new_age}")
 
+### Exercises ###
 
+# Exercise 1 - Rectangle Area Calc
+
+length = float(input("Enter the legnth: "))
+width = float(input("Enter the width: "))
+area = length * width
+
+print(f"The area is: {area}㎠")
 
 
