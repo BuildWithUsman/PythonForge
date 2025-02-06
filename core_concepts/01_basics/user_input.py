@@ -27,10 +27,18 @@ print(f"5 years from now, you will be: {new_age}")
 
 # Exercise 1 - Rectangle Area Calc
 
-length = float(input("Enter the legnth: "))
+length = float(input("Enter the length: "))
 width = float(input("Enter the width: "))
 area = length * width
 
 print(f"The area is: {area}㎠")
 
+# Exercise 2 - Shopping Cart Program 
+ 
+item = input("What item would you like to purchase?: ")
+price = float(input("What is the price of the item?: "))
+quantity = int(input("How many would you like?: "))
+total = price * quantity
 
+print(f"You have bought {quantity} * {item}/s")
+print(f"Your total is: ${total}")
