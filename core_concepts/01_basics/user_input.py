@@ -13,9 +13,15 @@ age = input("How old are you?: ")
 age = int(age)
 age = age + 1
 
+# If you wnat to simply the type casting or concatenating, you can do the following: 
+# Example:
+
+new_age = int(input("How old will you be in 5 years?: ")) # Doing this already concatenates the variable from a string to integer or floats.
+
 print(f"Hello {name}")
 print("Happy Birthday")
 print(f"You are {age} years old")
+print(f"5 years from now, you will be: {new_age}")
 
 
 
