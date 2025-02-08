@@ -1,5 +1,7 @@
 friends = 0 
 
-friends = friends + 1
+# friends = friends + 1
+# OR 
+friends += 1
 
 print(friends)
