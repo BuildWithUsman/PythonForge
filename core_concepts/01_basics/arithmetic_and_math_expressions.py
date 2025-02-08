@@ -1,4 +1,4 @@
-friends = 0 
+friends = 5
 
 # Addtion
 # friends = friends + 1
@@ -8,5 +8,10 @@ friends = 0
 # Subtraction
 # friends = friends -2 
 # OR 
-friends -= 2
+# friends -= 2
+
+# Multiplication
+friends = friends * 3
+
+
 print(friends)
