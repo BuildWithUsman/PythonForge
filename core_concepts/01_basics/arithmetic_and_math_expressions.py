@@ -1,4 +1,4 @@
-friends = 5
+friends = 10
 
 # Addtion
 # friends = friends + 1
@@ -11,7 +11,24 @@ friends = 5
 # friends -= 2
 
 # Multiplication
-friends = friends * 3
+# friends = friends * 3
+# OR
+# friends *= 3
+
+# Division
+# friends = friends / 2
+# OR 
+# friends /= 2
+
+# Exponents 
+# friends = friends ** 2
+# OR
+# friends **= 2
+
+# Remainder or Modulus Operator
+# Can be used to determine if a number is even or odd.
+# Example
+remainder = friends % 2
 
 
-print(friends)
+print(remainder)
