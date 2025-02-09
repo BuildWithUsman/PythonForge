@@ -30,5 +30,4 @@ friends = 10
 # Example
 remainder = friends % 2
 
-
 print(remainder)
