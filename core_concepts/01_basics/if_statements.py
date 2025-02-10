@@ -24,9 +24,25 @@
 
 # Name Example 
 
-name = input("Enter your name: ")
+# name = input("Enter your name: ")
 
-if name == "":
-    print("You did not type in your name!")
+# if name == "":
+#     print("You did not type in your name!")
+# else:
+#     print(f"Hello {name}")
+
+# Boolean Example
+
+for_sale = True
+
+if for_sale:
+    print("This item is for sale")
 else:
-    print(f"Hello {name}")
+    print("This item is NOT for sale")
+
+online = False
+
+if online:
+    print("You are online!")
+else:
+    print("You are offline!")
