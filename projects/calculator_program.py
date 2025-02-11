@@ -1,7 +1,7 @@
 # Python Calculator 
 
 operator = input("Enter an operator (+, -, *, or /): ")
-num1 = float(input("Enter the 1st Number: "))
+num1 = float(input("Enter the 1st Number: ")) ## If you don't type cast, the variables (num1 and num2) then it will concatenate them as stirngs.
 num2 = float(input("Enter the 2nd Number: "))
 
 if operator == "+":
