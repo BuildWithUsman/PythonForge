@@ -29,4 +29,4 @@ elif guess < number:
         print("Sorry you weren't able to guess the correct number!")
         sys.exit()
 else:
-    print("You are entered a number greater than the range!")
+    pass
