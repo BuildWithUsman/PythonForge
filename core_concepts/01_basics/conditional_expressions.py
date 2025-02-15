@@ -12,3 +12,9 @@ new_num = 7
 result = "EVEN" if new_num % 2 == 0 else "ODD"
 
 print(result)
+
+a = 6 
+b = 7
+
+max_num = a if a > b else b
+min_num = a if a < b else b
