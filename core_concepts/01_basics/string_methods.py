@@ -1,4 +1,5 @@
-name = input("Enter your full name: ")
+# name = input("Enter your full name: ")
+phone_number = input("Please Enter your Phone Number: ")
 
 # result = len(name)
 # result = name.find("a")
@@ -7,5 +8,6 @@ name = input("Enter your full name: ")
 # name = name.upper() # Make all letters uppercase
 # name = name.lower() # Make all letters lowercase
 # result = name.isdigit() # Checks to see if the string ONLY contains digits, it will return True or False.
-result = name.isalpha() # Check to see if the string ONLY contains alphabets, it will return True or False. Numbers and White Spaces = False. 
+# result = name.isalpha() # Check to see if the string ONLY contains alphabets, it will return True or False. Numbers and White Spaces = False. 
+result = phone_number.count("-")
 print(result)
