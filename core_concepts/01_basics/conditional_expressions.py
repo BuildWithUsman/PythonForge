@@ -18,3 +18,26 @@ b = 7
 
 max_num = a if a > b else b
 min_num = a if a < b else b
+
+print(max_num)
+print(min_num)
+
+age = 18
+
+status = "Adult" if age >= 18 else "Child"
+
+print(status)
+
+temperature = 20
+
+weather = "HOT" if temperature > 20 else "COLD"
+
+print(weather)
+
+user_role = "admin"
+
+access_level = "Full Access" if user_role == "admin" else "Limited Access"
+
+print(access_level)
+
+
