@@ -9,5 +9,6 @@ phone_number = input("Please Enter your Phone Number: ")
 # name = name.lower() # Make all letters lowercase
 # result = name.isdigit() # Checks to see if the string ONLY contains digits, it will return True or False.
 # result = name.isalpha() # Check to see if the string ONLY contains alphabets, it will return True or False. Numbers and White Spaces = False. 
-result = phone_number.count("-")
-print(result)
+# result = phone_number.count("-")
+phone_number = phone_number.replace("-", " ")
+print(phone_number)
