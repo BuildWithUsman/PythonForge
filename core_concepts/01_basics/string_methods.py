@@ -14,4 +14,14 @@
 # print(phone_number)
 
 # Validate User Input Exercise 
+# 1. username is no more than 12 characters. Make the len() method with a if statement. 
+# 2. username must not contain spaces.  
+# 3. username must not contain digits. 
+
+username = input("Enter a username: ")
+
+if len(username) > 12:
+    print("Your username can't be more than 12 characters")
+else:
+    print(f"Welcome {username}")
 
