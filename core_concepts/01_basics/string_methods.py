@@ -12,3 +12,6 @@
 # result = phone_number.count("-") # Count how many times the character "-" shows up.
 # phone_number = phone_number.replace("-", " ") # Find and Replace "-" with a white space " ".
 # print(phone_number)
+
+# Validate User Input Exercise 
+
