@@ -27,3 +27,17 @@ print(credit_number[5:19]) # Print the remaining digits in the string after the 
 # Another way of writing this is the following:
 print(credit_number[5:]) # Similar to the Starting Index, if you don't declare a ending position for the Index. 
                          # Python assumes you are looking for the entire remaining string. 
+
+# You can also do Reverse Indexing using negative numbers, such as -1. 
+# Examples
+print(credit_number[-1]) # Going backwards, it will print out 6. 
+print(credit_number[-2]) # Going backwards, it will print out 5.
+print(credit_number[-3]) # Going backwards, it will print out 4.  
+print(credit_number[-4]) # Going backwards, it will print out 3.
+print(credit_number[-5]) # Going backwards, it will print out -.
+# Another way of doing this is: 
+print(credit_number[-1:-5:-1]) # Indexing Slicing moves left to right by default, and in our example [-1:-5] we are going backwards.
+                               # But however since we didn't specify a negative step (-1) it won't print a output.
+                               # Because by default, Python assumes a default step of +1, which results in a empty string. 
+                               # To fix it, we need to declare a -1 step - [-1:-5:-1]
+
