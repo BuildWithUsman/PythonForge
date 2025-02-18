@@ -44,3 +44,9 @@ print(credit_number[-1:-5:-1]) # Indexing Slicing moves left to right by default
 # Using the Step field, we can access the characters in a string by a given step. We can count by 2s, 3s, and etc. 
 print(credit_number[::2]) # This will print every 2nd character in our string, Python is assuming everything from the Start to the End. 
 print(credit_number[::3]) # This will print every 3nd character in our string, Python is assuming everything from the Start to the End. 
+
+# Practical Example
+# Create a program to get the last 4 digits of a Credit Number 
+
+last_digits = credit_number[-4:]
+print(f"XXXX-XXXX-XXXX-{last_digits}")
