@@ -14,3 +14,16 @@ print(credit_number[3]) # In this case, this will print out the fourth character
 
 print(credit_number[4]) # In this case, this will print out the fifth character which is a -. 
 
+print(credit_number[0:4]) # With the Ending Index, it is exclusive and the Starting Index is inclusive. 
+                          # Which means that in our example, the output would 1234.
+                          # Even though position's 0 to 4 in the credit number matches to "1234-".
+                          # But since we are using the ending index we omit the "-" character. 
+
+print(credit_number[:4]) # Another way of printing out the first 4 characters, Python automatically assumes the Starting is 0.
+
+print(credit_number[5:9]) # Print the next set of digits, remember the Ending Index is exclusive.
+
+print(credit_number[5:19]) # Print the remaining digits in the string after the initial 4 numbers. 
+# Another way of writing this is the following:
+print(credit_number[5:]) # Similar to the Starting Index, if you don't declare a ending position for the Index. 
+                         # Python assumes you are looking for the entire remaining string. 
