@@ -50,3 +50,9 @@ print(credit_number[::3]) # This will print every 3nd character in our string, P
 
 last_digits = credit_number[-4:]
 print(f"XXXX-XXXX-XXXX-{last_digits}")
+
+# Practical Example
+# Reverse the Characters in the String
+
+credit_number = credit_number[::-1] # To reverse a string, you set the Step Field to -1.
+print(credit_number)
