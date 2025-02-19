@@ -40,7 +40,7 @@ print(f"Price 2 is ${price2:>10}") # Right Justify 10 Spaces.
 print(f"Price 3 is ${price3:^10}") # Center Justify 10 Spaces. 
 print(f"\n")
 
-# Using the Plus Sign (:+) Format Specifier to indicate a positive value.
+# Using the Plus Sign (:+) Format Specifier to indicate a positive value if it's positive.
 print(f"Price 1 is ${price1:+}")
 print(f"Price 2 is ${price2:+}") # Since the value for Price 2 is already a negative number, it will continue to display a negative sign. 
 print(f"Price 3 is ${price3:+}") 
@@ -52,3 +52,14 @@ print(f"Price 2 is ${price2: }") # Will continue to display a negative sign befo
 print(f"Price 3 is ${price3: }")
 print(f"\n")
 
+# To insert a thousands separator for a value, we can use the (:,) Format Specifier. 
+# Let's generate new values that are in the thousands. 
+
+price4 = 3000.14159
+price5 = -9870.65
+price6 = 1200.34
+
+print(f"Price 1 is ${price4:,}") 
+print(f"Price 2 is ${price5:,}") 
+print(f"Price 3 is ${price6:,}")
+print(f"\n")
