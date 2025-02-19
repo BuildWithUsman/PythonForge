@@ -63,3 +63,9 @@ print(f"Price 1 is ${price4:,}")
 print(f"Price 2 is ${price5:,}") 
 print(f"Price 3 is ${price6:,}")
 print(f"\n")
+
+# You can mix and match Format Specifiers as well 
+print(f"Price 1 is ${price4:+,.2f}") 
+print(f"Price 2 is ${price5:+,.2f}") 
+print(f"Price 3 is ${price6:+,.2f}")
+print(f"\n")
