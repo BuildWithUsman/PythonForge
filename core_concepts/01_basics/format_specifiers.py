@@ -32,4 +32,11 @@ print(f"\n")
 print(f"Price 1 is ${price1:010}")
 print(f"Price 2 is ${price2:010}")
 print(f"Price 3 is ${price3:010}")
+print(f"\n")
+
+# Using the Left, Right, and Center Format Specfier
+print(f"Price 1 is ${price1:<10}") # Left Justify 10 Spaces.
+print(f"Price 2 is ${price2:>10}") # Right Justify 10 Spaces.
+print(f"Price 3 is ${price3:^10}") # Center Justify 10 Spaces. 
+print(f"\n")
 
