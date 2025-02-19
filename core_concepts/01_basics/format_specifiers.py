@@ -22,21 +22,33 @@ print(f"Price 2 is ${price2:.3f}")
 print(f"Price 3 is ${price3:.3f}")
 print(f"\n")
 
-# Using the :(number) Format Specifier to Allocate That Many Spaces
+# Using the :(number) Format Specifier to Allocate That Many Spaces.
 print(f"Price 1 is ${price1:10}")
 print(f"Price 2 is ${price2:10}")
 print(f"Price 3 is ${price3:10}")
 print(f"\n")
 
-# Using the :0(number) Format Specifier to Allocate and Zero Pad that Many Spaces
+# Using the :0(number) Format Specifier to Allocate and Zero Pad that Many Spaces.
 print(f"Price 1 is ${price1:010}")
 print(f"Price 2 is ${price2:010}")
 print(f"Price 3 is ${price3:010}")
 print(f"\n")
 
-# Using the Left, Right, and Center Format Specfier
+# Using the Left(:<), Right(:>), and Center(:^) Format Specfier.
 print(f"Price 1 is ${price1:<10}") # Left Justify 10 Spaces.
 print(f"Price 2 is ${price2:>10}") # Right Justify 10 Spaces.
 print(f"Price 3 is ${price3:^10}") # Center Justify 10 Spaces. 
+print(f"\n")
+
+# Using the Plus Sign (:+) Format Specifier to indicate a positive value.
+print(f"Price 1 is ${price1:+}")
+print(f"Price 2 is ${price2:+}") # Since the value for Price 2 is already a negative number, it will continue to display a negative sign. 
+print(f"Price 3 is ${price3:+}") 
+print(f"\n")
+
+# To insert a space before positive numbers, we can use the (: ) Format Specifier. 
+print(f"Price 1 is ${price1: }") 
+print(f"Price 2 is ${price2: }") # Will continue to display a negative sign before the number since it is already a negative number. 
+print(f"Price 3 is ${price3: }")
 print(f"\n")
 
