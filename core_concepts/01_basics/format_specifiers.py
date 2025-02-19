@@ -20,4 +20,16 @@ price3 = 12.34
 print(f"Price 1 is ${price1:.3f}")
 print(f"Price 2 is ${price2:.3f}")
 print(f"Price 3 is ${price3:.3f}")
+print(f"\n")
+
+# Using the :(number) Format Specifier to Allocate That Many Spaces
+print(f"Price 1 is ${price1:10}")
+print(f"Price 2 is ${price2:10}")
+print(f"Price 3 is ${price3:10}")
+print(f"\n")
+
+# Using the :0(number) Format Specifier to Allocate and Zero Pad that Many Spaces
+print(f"Price 1 is ${price1:010}")
+print(f"Price 2 is ${price2:010}")
+print(f"Price 3 is ${price3:010}")
 
