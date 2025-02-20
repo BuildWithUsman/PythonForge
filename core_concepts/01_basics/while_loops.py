@@ -36,12 +36,23 @@
 
 # print("Bye!")
 
-# Example #4 - Type a number between 1 and 10
+# # Example #4 - Type a number between 1 and 10
 
-num = int(input("Enter a # between 1 - 10: "))
+# num = int(input("Enter a # between 1 - 10: "))
 
-while num < 1 or num > 10:
-    print(f"{num} is not valid.")
-    num = int(input("Enter a # between 1 - 10: "))
+# while num < 1 or num > 10:
+#     print(f"{num} is not valid.")
+#     num = int(input("Enter a # between 1 - 10: "))
 
-print(f"Your number is {num}")
+# print(f"Your number is {num}")
+
+# Example #3 - Food, Cleaner Way to Write the Code
+
+food = input("Enter a food you like (q to quit): ")
+
+while food.lower() != "q": # Converts the string into lowercase, in case the user enters uppercase Q. 
+                           # And You Don't Need to Write "not food ==", != is the simplier way and the same thing.
+    print(f"You like {food}")
+    food = input("Enter another food you like (q to quit): ")
+
+print("Bye!")
