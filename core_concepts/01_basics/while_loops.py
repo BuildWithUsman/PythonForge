@@ -7,6 +7,7 @@
 # else:
 #     print(f"Hello {name}")
 
+# Example #1 - Name 
 # If we want the user to be continuously prompted for a input, we will use a While Loop 
 
 # while name == "":
@@ -15,10 +16,22 @@
 
 # print(f"Hello {name}")
 
-age = int(input("Enter your age: "))
+# Example #2 - Age
 
-while age < 0:
-    print("Age can't be negative")
-    age = int(input("Enter your age: "))
+# age = int(input("Enter your age: "))
 
-print(f"You are {age} years old")
+# while age < 0:
+#     print("Age can't be negative")
+#     age = int(input("Enter your age: "))
+
+# print(f"You are {age} years old")
+
+# Example #3 - Food 
+
+food = input("Enter a food you like (q to quit): ")
+
+while not food == "q":
+    print(f"You like {food}")
+    food = input("Enter another food you like (q to quit): ")
+
+print("Bye!")
