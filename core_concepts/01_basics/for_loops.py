@@ -22,9 +22,16 @@
 # for x in credit_card: # X represents our current position, starting at 0 and progressing until the end of the string. 0 in our example is 1.
 #     print(x)
 
-# Example 5 - Skip over a Iteration, for example if I want to skip the number 13 when printing 1 to 20. 
-for x in range(1, 21):
+# Example 5 - Skip over a Iteration, using the "Continue" keyworkd. For example if I want to skip the number 13 when printing 1 to 20. 
+# for x in range(1, 21):
+#     if x == 13:
+#         continue # Continue is a keyword that is used inside of a for loop to skip a iteration of something. 
+#     else:
+#         print(x)
+
+# Example 6 - To break out of a Iteration, using the keyword "Break".
+for x in range(1,21):
     if x == 13:
-        continue # Continue is a keyword that is used inside of a for loop to skip a iteration of something. 
+        break # Once X reaches 13, it will break out of the loop. 
     else:
         print(x)
